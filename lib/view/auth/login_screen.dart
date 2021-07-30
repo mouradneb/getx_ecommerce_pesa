@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:getx_ecommerce_pesa/core/view_model/auth_view_model.dart';
 import 'package:getx_ecommerce_pesa/view/widgets/custom_button.dart';
 import 'package:getx_ecommerce_pesa/view/widgets/custom_button_social.dart';
 import 'package:getx_ecommerce_pesa/view/widgets/custom_text.dart';
@@ -7,7 +9,7 @@ import 'package:getx_ecommerce_pesa/view/widgets/custom_text_form_field.dart';
 
 import '../../constants.dart';
 
-class LoginScreen extends StatelessWidget {
+class LoginScreen extends GetWidget<AuthViewModel> {
   const LoginScreen({Key? key}) : super(key: key);
 
   @override
@@ -72,7 +74,9 @@ class LoginScreen extends StatelessWidget {
               CustomButtonSocial(
                 text: "Sign in with Google",
                 imageName: "assets/images/google.png",
-                onPressed: () {},
+                onPressed: () {
+                  controller.googleSignInMethod();
+                },
               ),
             ],
           ),
