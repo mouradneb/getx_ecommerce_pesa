@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "883950664839",
+    "project_id": "ecommercepesa",
+    "storage_bucket": "ecommercepesa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883950664839:android:f11e6ef6dd1d3ab7e74c22",
+        "android_client_info": {
+          "package_name": "dr.nebhi.getx_ecommerce_pesa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883950664839-g12m5bpc1hfhmquhm74hog8n58so4v6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dr.nebhi.getx_ecommerce_pesa",
+            "certificate_hash": "5fb9e4360aa6d2946c0d105f104ef840bad33208"
+          }
+        },
+        {
+          "client_id": "883950664839-9a0pd4ektgn4jckjf24mrugd5rh93s77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvIb7j6mkBPXGOsSDL0_0FRaVvmFEIVE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883950664839-9a0pd4ektgn4jckjf24mrugd5rh93s77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
